@@ -1,3 +1,5 @@
+import org.junit.*;
+import static org.junit.Assert.assertEquals;
 
 public class BuggyUtilClient {
     public static void main(String[] args) {
@@ -10,6 +12,3 @@ public class BuggyUtilClient {
         StringUtils.makePurdueUsername("Sean", "Flannery"));
     }
 }
-
-
-
